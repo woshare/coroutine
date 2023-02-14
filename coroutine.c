@@ -107,7 +107,7 @@ mainfunc(struct schedule *S,void* a) {
 	struct coctx_t tmp;
 	int id = S->running;
 	struct coroutine *C = S->co[id];
-	C->func(S,C->ud);
+	C->func(S,C->ud);//从这里进入目标协程函数的调用
 	_co_delete(C);
 	S->co[id] = NULL;
 	--S->nco;
