@@ -59,6 +59,11 @@ liujun|myCo|360|共享主栈空间，每个小协程有保存上下文的空间|
 ![](./res/pushq-popq.jpeg "")
 
 
+## main例子运行概要
+
+
+![](./res/main-example.jpeg "")
+
 
 ## 高效协程切汇编介绍
 
