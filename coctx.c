@@ -25,13 +25,13 @@
 #define EAX 2
 #define ECX 3
 // -----------
-#define RSP 0
+#define RSP 0 //栈顶寄存器
 #define RIP 1
 #define RBX 2
 #define RDI 3
 #define RSI 4
 
-#define RBP 5
+#define RBP 5 //栈底寄存器
 #define R12 6
 #define R13 7
 #define R14 8
